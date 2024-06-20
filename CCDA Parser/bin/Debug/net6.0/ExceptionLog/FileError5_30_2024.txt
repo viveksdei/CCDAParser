@@ -1,0 +1,40 @@
+5/30/2024 2:11:39 PM|XMLDataProcessing|System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at CCDA_Parser.DAL.CCDAParserDAL.XmlDataParhing(Int32 PatientId, String FileName, String ccdaFile, String con) in C:\Users\kavita.ms.SDEICHD0\Downloads\CCDA Parser 2 (1)\CCDA Parser\DAL\CCDAParserDAL.cs:line 39
+5/30/2024 3:00:32 PM|XMLDataProcessing|System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at CCDA_Parser.DAL.CCDAParserDAL.XmlDataParhing(Int32 PatientId, String FileName, String ccdaFile, String con) in C:\Users\kavita.ms.SDEICHD0\Downloads\CCDA Parser 2 (1)\CCDA Parser\DAL\CCDAParserDAL.cs:line 39
+5/30/2024 3:15:30 PM|XMLDataProcessing|System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1011
+   at CCDA_Parser.DAL.CCDAParserDAL.XmlDataParhing(Int32 PatientId, String FileName, String ccdaFile, String con)
+5/30/2024 4:00:23 PM|XMLDataProcessing|System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1011
+   at CCDA_Parser.DAL.CCDAParserDAL.XmlDataParhing(Int32 PatientId, String FileName, String ccdaFile, String con) in C:\Users\kavita.ms.SDEICHD0\Downloads\CCDA Parser 2 (1)\CCDA Parser\DAL\CCDAParserDAL.cs:line 196
+5/30/2024 4:45:29 PM|XMLDataProcessing|System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1011
+   at CCDA_Parser.DAL.CCDAParserDAL.XmlDataParhing(Int32 PatientId, String FileName, String ccdaFile, String con) in C:\Users\kavita.ms.SDEICHD0\Downloads\CCDA Parser 2 (1)\CCDA Parser\DAL\CCDAParserDAL.cs:line 196

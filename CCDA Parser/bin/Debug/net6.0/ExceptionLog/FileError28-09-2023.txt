@@ -1,0 +1,52 @@
+28-09-2023 11.40.56 AM|XMLDataProcessing|System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at CCDA_Parser.DAL.CCDAParserDAL.XmlDataParhing(Int32 PatientId, String FileName, String ccdaFile, String con) in D:\WombaCare\IDocBackend\CCDA Parser\DAL\CCDAParserDAL.cs:line 38
+28-09-2023 11.44.57 AM|XMLDataProcessing|System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at CCDA_Parser.DAL.CCDAParserDAL.XmlDataParhing(Int32 PatientId, String FileName, String ccdaFile, String con)
+28-09-2023 11.51.22 AM|XMLDataProcessing|System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at CCDA_Parser.DAL.CCDAParserDAL.XmlDataParhing(Int32 PatientId, String FileName, String ccdaFile, String con) in D:\WombaCare\IDocBackend\CCDA Parser\DAL\CCDAParserDAL.cs:line 38
+28-09-2023 11.56.19 AM|XMLDataProcessing|System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at CCDA_Parser.DAL.CCDAParserDAL.XmlDataParhing(Int32 PatientId, String FileName, String ccdaFile, String con)
+28-09-2023 12.05.36 PM|XMLDataProcessing|System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at CCDA_Parser.DAL.CCDAParserDAL.XmlDataParhing(Int32 PatientId, String FileName, String ccdaFile, String con) in D:\WombaCare\IDocBackend\CCDA Parser\DAL\CCDAParserDAL.cs:line 38
+28-09-2023 12.06.53 PM|XMLDataProcessing|System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at CCDA_Parser.DAL.CCDAParserDAL.XmlDataParhing(Int32 PatientId, String FileName, String ccdaFile, String con)
